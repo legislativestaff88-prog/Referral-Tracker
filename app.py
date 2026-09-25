@@ -156,4 +156,4 @@ if check_password():
 
     # Clean rendering frame configuration
     display_df = display_df.rename(columns={"Is Acted": "Acted Status Indicator"})
-    st.dataframe(display_df, use_container_width
+    st.dataframe(display_df, use_container_width)
